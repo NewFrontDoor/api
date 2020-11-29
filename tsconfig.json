@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/create-presigned-post" },
+    { "path": "packages/init-middleware" }
+  ]
+}

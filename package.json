@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "xo && yarn workspaces run test",
+    "types:build": "yarn tsc --build",
+    "types:clean": "yarn tsc --build --clean"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "rules": {
+      "ava/no-ignored-test-files": "off"
+    }
+  },
+  "devDependencies": {
+    "@types/sinon": "^9.0.9",
+    "ava": "^3.13.0",
+    "aws-sdk": "^2.799.0",
+    "next": "^9.5.5",
+    "rollup": "^2.33.3",
+    "sinon": "^9.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2",
+    "xo": "^0.35.0"
+  }
+}

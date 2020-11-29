@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.compileroptions.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "dist"
+  },
+  "include": [
+    "src",
+    "test"
+  ],
+  "exclude": [
+    "**/*.test.ts"
+  ],
+  "types": [
+    "../../node_modules/speakingurl/typings/speakingurl"
+  ],
+  "references": [
+    { "path": "../init-middleware" }
+  ]
+}

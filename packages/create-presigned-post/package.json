@@ -1,0 +1,44 @@
+{
+  "name": "@newfrontdoor/api-create-presigned-post",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newfrontdoor/api.git",
+    "directory": "packages/create-presigned-post"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "xo",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@newfrontdoor/init-middleware": "^0.1.0",
+    "@sindresorhus/slugify": "^1.1.0",
+    "crypto-random-string": "^3.3.0",
+    "mime": "^2.4.6",
+    "speakingurl": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/mime": "^2.0.3",
+    "ava": "^3.13.0",
+    "sinon": "^9.2.1"
+  },
+  "peerDependencies": {
+    "aws-sdk": ">=2.799.0",
+    "next": ">=9.5.5"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "xo": false
+}
