@@ -16,6 +16,7 @@
     }
   },
   "devDependencies": {
+    "@changesets/cli": "^2.11.2",
     "@types/sinon": "^9.0.9",
     "ava": "^3.13.0",
     "aws-sdk": "^2.799.0",
