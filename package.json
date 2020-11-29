@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "release": "changeset publish",
     "test": "xo && yarn workspaces run test",
     "types:build": "yarn tsc --build",
     "types:clean": "yarn tsc --build --clean"
