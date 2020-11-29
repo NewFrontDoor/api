@@ -24,6 +24,9 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
+      - name: Build TypeScript Types
+        run: yarn types:build
+
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@master
