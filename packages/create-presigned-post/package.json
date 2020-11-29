@@ -20,8 +20,7 @@
     "@newfrontdoor/init-middleware": "^0.2.0",
     "@sindresorhus/slugify": "^1.1.0",
     "crypto-random-string": "^3.3.0",
-    "mime": "^2.4.6",
-    "speakingurl": "^14.0.1"
+    "mime": "^2.4.6"
   },
   "devDependencies": {
     "@types/mime": "^2.0.3",
