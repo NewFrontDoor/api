@@ -23,6 +23,7 @@
     "aws-sdk": "^2.799.0",
     "eslint-plugin-prettier": "^3.1.4",
     "next": "^9.5.5",
+    "prettier": "^2.2.1",
     "rollup": "^2.33.3",
     "sinon": "^9.2.1",
     "ts-node": "^9.0.0",
