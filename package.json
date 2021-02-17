@@ -21,7 +21,7 @@
     "@types/sinon": "^9.0.9",
     "ava": "^3.14.0",
     "aws-sdk": "^2.845.0",
-    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "next": "^10.0.7",
     "prettier": "^2.2.1",
     "rollup": "^2.39.0",
