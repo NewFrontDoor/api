@@ -7,14 +7,13 @@
     "url": "https://github.com/newfrontdoor/api.git",
     "directory": "packages/create-presigned-post"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": "dist/src",
+  "types": "dist/src",
   "files": [
-    "dist"
+    "dist/src"
   ],
-  "scripts": {
-    "lint": "xo",
-    "test": "ava"
+  "directories": {
+    "test": "test"
   },
   "dependencies": {
     "@newfrontdoor/init-middleware": "^0.2.0",
@@ -23,21 +22,12 @@
     "mime": "^2.5.0"
   },
   "devDependencies": {
-    "@types/mime": "^2.0.3",
-    "ava": "^3.14.0",
+    "ava": "^3.15.0",
     "sinon": "^9.2.4"
   },
   "peerDependencies": {
     "aws-sdk": ">=2.799.0",
-    "next": ">=9.5.5"
-  },
-  "ava": {
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
+    "next": ">=9.5.5 || >= 10.0.0"
   },
   "xo": false
 }

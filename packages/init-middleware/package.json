@@ -7,27 +7,18 @@
     "url": "https://github.com/newfrontdoor/api.git",
     "directory": "packages/init-middleware"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": "dist/src",
+  "types": "dist/src",
   "files": [
-    "dist"
+    "dist/src"
   ],
-  "scripts": {
-    "lint": "xo",
-    "test": "ava"
+  "directories": {
+    "test": "test"
   },
   "dependencies": {},
   "devDependencies": {
-    "ava": "^3.14.0",
+    "ava": "^3.15.0",
     "sinon": "^9.2.4"
-  },
-  "ava": {
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
   },
   "xo": false
 }

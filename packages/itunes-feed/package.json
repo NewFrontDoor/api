@@ -1,0 +1,56 @@
+{
+  "name": "@newfrontdoor/itunes-feed",
+  "description": "Create an rss feed for itunes",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newfrontdoor/api.git",
+    "directory": "packages/itunes-feed"
+  },
+  "main": "dist/src",
+  "types": "dist/src",
+  "files": [
+    "dist/src"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "feed",
+    "itunes",
+    "rss",
+    "atom",
+    "xml",
+    "syndication"
+  ],
+  "author": "Jonathan Haines <jonno.haines@gmail.com> (https://jonno.dev)",
+  "bugs": {
+    "url": "https://github.com/NewFrontDoor/api/issues"
+  },
+  "homepage": "https://github.com/NewFrontDoor/api/tree/main/packages/itunes-feed#readme",
+  "dependencies": {
+    "date-fns": "^2.11.1",
+    "file-type": "^16.2.0",
+    "got": "^11.8.1",
+    "image-size": "^0.9.3",
+    "type-fest": "^0.21.1",
+    "xmlbuilder2": "^2.1.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-lint-recommended",
+      [
+        "usage",
+        {
+          "example": "./packages/itunes-feed/example.js"
+        }
+      ]
+    ]
+  },
+  "xo": false
+}

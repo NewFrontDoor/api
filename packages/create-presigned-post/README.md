@@ -46,6 +46,7 @@ Compares the request `authorization` header with an environment variable.
 ```js
 accessToken('YOUR_ACCESS_TOKEN')
 ```
+
 Will compare the `authorization` header against the value in
 
 ```js

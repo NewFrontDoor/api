@@ -1,7 +1,7 @@
 import assert from 'assert';
 import {IncomingMessage, ServerResponse} from 'http';
 
-export type NextFunction = (err?: Error) => void;
+export type NextFunction = (error?: Error) => void;
 
 export type RequestHandler<
   Request extends IncomingMessage = IncomingMessage,
@@ -27,10 +27,10 @@ function initMiddleware<
     return new Promise((resolve, reject) => {
       middleware(request, response, (result) => {
         if (result instanceof Error) {
-          return reject(result);
+          reject(result);
+        } else {
+          resolve();
         }
-
-        return resolve();
       });
     });
   };

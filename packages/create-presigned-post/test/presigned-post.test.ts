@@ -1,6 +1,6 @@
 import test from 'ava';
 import * as sinon from 'sinon';
-import S3 from 'aws-sdk/clients/s3';
+import S3 from 'aws-sdk/clients/s3.js';
 import type {NextApiRequest, NextApiResponse} from 'next';
 import {presignedPost} from '../src';
 
@@ -9,7 +9,7 @@ test.afterEach(() => {
 });
 
 type CreatePresignedPostCallback = (
-  err: Error | null,
+  error: Error | null,
   data: S3.PresignedPost
 ) => void;
 

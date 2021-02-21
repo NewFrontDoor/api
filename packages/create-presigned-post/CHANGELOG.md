@@ -14,5 +14,5 @@
 
 ### Patch Changes
 
-- Updated dependencies [ad42751]
+- Updated dependencies \[ad42751]
   - @newfrontdoor/init-middleware@0.2.0

@@ -1,6 +1,6 @@
 import assert from 'assert';
 import type {NextApiRequest, NextApiResponse} from 'next';
-import S3 from 'aws-sdk/clients/s3';
+import S3 from 'aws-sdk/clients/s3.js';
 import mime from 'mime';
 import path from 'path';
 import slugify from '@sindresorhus/slugify';
@@ -33,9 +33,13 @@ async function createPresignedPost(
   parameters: S3.PresignedPost.Params
 ): Promise<S3.PresignedPost> {
   return new Promise((resolve, reject) => {
-    s3.createPresignedPost(parameters, (error, data) =>
-      error ? reject(error) : resolve(data)
-    );
+    s3.createPresignedPost(parameters, (error, data) => {
+      if (error) {
+        reject(error);
+      } else {
+        resolve(data);
+      }
+    });
   });
 }
 
