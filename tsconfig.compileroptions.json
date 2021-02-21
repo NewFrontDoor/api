@@ -8,6 +8,7 @@
     "allowJs": false,
     "resolveJsonModule": true,
     "moduleResolution": "node",
+    "inlineSourceMap": true,
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
