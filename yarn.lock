@@ -1225,10 +1225,10 @@ ava@^3.15.0:
     write-file-atomic "^3.0.3"
     yargs "^16.2.0"
 
-aws-sdk@^2.845.0:
-  version "2.848.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.848.0.tgz#5e7706ddd30a55a2d5a5b64c29682a757607ee64"
-  integrity sha512-c/e5kaEFl+9aYkrYDkmu5mSZlL+EfP6DnBOMD06fH12gIsaFSMBGtbsDTHABhvSu++LxeI1dJAD148O17MuZvg==
+aws-sdk@^2.1003.0:
+  version "2.1003.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1003.0.tgz#f4ca218f466c524a90370b5604a3ad4cda4c0e08"
+  integrity sha512-UEZveI1m7+/YsomU2tVxLMmlo5g3sr3ue+QMJ2UwbrvHZ+O9hr9vVia1lD+L8fYTQenOff95NFc02h3pDE3iDA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
