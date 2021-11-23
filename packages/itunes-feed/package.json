@@ -34,7 +34,7 @@
     "file-type": "^16.2.0",
     "got": "^11.8.1",
     "image-size": "^0.9.3",
-    "type-fest": "^0.21.1",
+    "type-fest": "^2.6.0",
     "xmlbuilder2": "^2.1.1",
     "yup": "^0.32.9"
   },
